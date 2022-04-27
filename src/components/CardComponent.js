@@ -8,7 +8,7 @@ import {
   IconButton,
   LinearProgress,
 } from '@material-ui/core';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+
 import { makeStyles } from '@material-ui/styles';
 import EditIcon from '@mui/icons-material/Edit';
 import CameraIcon from '@mui/icons-material/Camera';
