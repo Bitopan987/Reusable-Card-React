@@ -19,7 +19,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '50%',
+    width: '30%',
     marginTop: '8rem',
   },
   content: {
@@ -53,13 +53,13 @@ function CardComponent({
     <Container className={classes.root}>
       <Card>
         <CardContent className={classes.content}>
-          <Typography variant="h5" className={classes.text}>
+          <Typography variant="h6" className={classes.text}>
             <span className={classes.strong}>Card Name</span>: {cardName}
           </Typography>
-          <Typography variant="h5" className={classes.text}>
+          <Typography variant="h6" className={classes.text}>
             <span className={classes.strong}>Closing Date</span>: {closingDate}
           </Typography>
-          <Typography variant="h5" className={classes.text}>
+          <Typography variant="h6" className={classes.text}>
             <span className={classes.strong}>Status</span>: {completedTask} task
             completed out of {totalTask}
           </Typography>
