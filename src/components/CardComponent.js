@@ -19,7 +19,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '30%',
+    width: '33%',
     marginTop: '8rem',
   },
   content: {
